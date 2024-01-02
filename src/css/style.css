@@ -1,0 +1,76 @@
+.login-page {
+  box-shadow: 0px 0px 50px black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_width {
+  width: 50%;
+}
+
+.imageListHeight {
+  height: 100px;
+}
+
+.css-v9h56r {
+  border-radius: 10px !important;
+}
+
+.css-v9h56r input {
+  width: 40px !important;
+  padding: 5px 0px !important;
+}
+
+.login-shadow {
+  box-shadow: 10px 10px 50px black;
+  background-color: #c8bfc7;
+}
+
+.actionButton {
+  padding: 30px 20px;
+  transition: transform 0.5s;
+}
+.actionButton:hover {
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+}
+
+.inputFocus {
+  box-shadow: 0px 0px 10px black;
+  transition: box-shadow 0.5s;
+}
+
+.inputFocus:hover {
+  box-shadow: 10px 10px 10px black;
+}
+.button {
+  box-shadow: 2px 2px 10px black;
+  transition: box-shadow 0.5s, width 0.5s;
+  width: 110px;
+}
+
+.button:hover {
+  box-shadow: 10px 10px 10px black;
+  width: 120px;
+}
+
+.bgColor {
+  background-color: #4281a4;
+}
+
+.error {
+  color: red !important;
+}
