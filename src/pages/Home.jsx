@@ -440,7 +440,7 @@ function MangeImages() {
               {isDeleting ? "Deleting" : "Yes"}
             </button>
             <button
-              className=" py-1 mx-3 btn btn-danger button_danger"
+              className=" py-1 mx-3 btn btn-danger button_danger button"
               type="button"
               onClick={handleClose}
             >
@@ -485,7 +485,7 @@ function MangeImages() {
                 {isDeleting ? "Downloading..." : "Download"}
               </button>
               <button
-                className=" py-1 mx-3 btn btn-danger button_danger"
+                className=" py-1 mx-3 btn btn-danger button_danger button"
                 type="button"
                 onClick={handleCloseDownload}
               >
